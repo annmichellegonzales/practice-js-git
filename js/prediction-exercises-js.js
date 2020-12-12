@@ -7,11 +7,11 @@ console.log(typeof '1' + 2);
 //prediction: string
 //"string2" because it concatinates
 console.log(6 % 4);
-//prediction: 2;
-//2
+//prediction: 2. correct
 console.log('3 + 4 is ' + 3 + 4);
 //"3 + 4 is 34"
 console.log('3 + 4 is ' + (3 + 4));
+//to create "3 + 4 is 7"
 console.log(0 < 0);
 //prediction: false
 console.log('false' == false);
@@ -23,7 +23,7 @@ console.log(true =='true');
 //false because string is not boolean?
 console.log(5 >= -5);
 //prediction: false
-//im not sure why! maybe because its great than OR equal to
+//im not sure why! maybe because its greater than OR equal to
 console.log(!false || false);
 //prediction: false
 //its true. OR statment.
